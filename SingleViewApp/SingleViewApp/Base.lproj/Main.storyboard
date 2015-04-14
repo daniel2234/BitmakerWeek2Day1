@@ -20,6 +20,9 @@
                                 <rect key="frame" x="55" y="99" width="210" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tempTextReturn:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="ey7-Nn-QUY"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAx-eP-r4v">
                                 <rect key="frame" x="108" y="184" width="105" height="30"/>
